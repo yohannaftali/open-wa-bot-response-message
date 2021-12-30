@@ -3,7 +3,7 @@ const { create, Client } = require('@open-wa/wa-automate')
 const start = (client = new Client()) => {
     console.log('User Login!');
     client.onMessage(async message => {
-        if (message.body === 'Hi') {
+        if (message.body === 'hi') {
             await client.sendText(message.from, '👋 Hi');
         }
     });
