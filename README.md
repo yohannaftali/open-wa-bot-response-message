@@ -12,9 +12,11 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 ```bash
 # Clone this repository
 git clone https://github.com/yohannaftali/open-wa-bot-response-message
+
 # Go into the app folder
 cd open-wa-bot-response-message
 cd app
+
 # Initialize project
 npm init --yes
 
