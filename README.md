@@ -35,3 +35,13 @@ From another whatsapp account, try type Hi, your app will reply to the message
 
 ## To ...
 Go to https://docs.openwa.dev/ 
+
+## Windows User
+If your script blocked by system.
+1. Open shell with Administrator privileges
+2. Run command:
+
+```bash
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+3. Confirm Y
