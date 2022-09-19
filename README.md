@@ -21,7 +21,7 @@ cd app
 npm init --yes
 
 # Install open-wa with npm
-npm install --save-dev @open-wa/wa-automate@latest
+npm i --save @open-wa/wa-automate@latest
 
 # Run the app 
 node index.js
